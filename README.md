@@ -8,7 +8,7 @@ How to use:
 
 * Create conda environment with the provided requirement files with the following steps:
 
-'''
+```
 # install conda or activate any conda environment already installed
 pip install conda / conda activate some-env
 # install mamba (much faster in installing pkgs than conda)
@@ -19,7 +19,7 @@ mamba create -n env-name -f requirements_mamba.txt -c conda-forge
 conda activate env-name
 # install the rest of the packages not available with conda via pip
 pip install -r requirements_pip.txt
-'''
+```
 
 `piano_transcription.ipynb`
 -------------
