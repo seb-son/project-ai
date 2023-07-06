@@ -1,5 +1,6 @@
 # Piano Transcription - Project in AI SS2023 - IPC-JKU
 =============================================
+
 Introduction Text
 
 How to use: 
@@ -16,9 +17,12 @@ conda install mamba
 # create new env with mamba
 mamba create --name <env-name> --file requirements_mamba.txt -c conda-forge
 #activate env
-conda activate env-name
+conda activate <env-name>
 # install the rest of the packages not available with conda via pip
 pip install -r requirements_pip.txt
+# run jupyter (inside project directory)
+jupyter lab
+# done
 ```
 
 `piano_transcription.ipynb`
