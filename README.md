@@ -14,7 +14,7 @@ pip install conda / conda activate some-env
 # install mamba (much faster in installing pkgs than conda)
 conda install mamba
 # create new env with mamba
-mamba create -n env-name -f requirements_mamba.txt -c conda-forge
+mamba create --name <env-name> --file requirements_mamba.txt -c conda-forge
 #activate env
 conda activate env-name
 # install the rest of the packages not available with conda via pip
