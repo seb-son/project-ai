@@ -51,16 +51,16 @@ Evaluation notebook of the madmom downbeat tracker applied to the annotated Filo
 
 Utils file with all functions needed.
 
-`readme.md`
--------------
-
-Infos and Instructions
-
 
 `report.pdf`
 -------------
 
 Project Report with more infos.
+
+`README.md`
+-------------
+
+Infos and Instructions
 
 
 
