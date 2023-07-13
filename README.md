@@ -2,7 +2,7 @@
 ====================================================
 
 
-This is a 2-part interactive jupyter-notebook which applies state-of-the-art music information retrieval tools to audio (music) files, and helps exploring the abilities of these tools for future applications in the jazz-music domain. 
+This is a 2-part interactive jupyter-notebook, where state-of-the-art music information retrieval tools are applied to audio (music) files from the jazz-music domain, with the aim of testing and evaluating these tools for future development of applications and tools, specialized on jazz-music. 
 
 ## How to use: 
 
