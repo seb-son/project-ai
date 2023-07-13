@@ -39,12 +39,12 @@ done.
 `piano_transcription.ipynb`
 -------------
 
-Step-by-step piano transcription from raw audio to source separated audio to MIDI.
+Step-by-step piano transcription from raw audio, to source (piano) separated audio, to MIDI.
 
 `evaluation.ipynb`
 -------------
 
-Evaluation notebook of the madmom downbeat tracker applied to the annotated Filosax data.
+Evaluation notebook of the madmom downbeat tracker applied to the annotated Filosax data, as well as visual comparison of midi-piano-transcriptions from PTI and MT-3.
 
 `piano_transcription_utils.py`
 -------------
