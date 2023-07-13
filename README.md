@@ -10,7 +10,7 @@ This is a 2-part interactive jupyter-notebook which applies state-of-the-art mus
 
 * Create conda environment with the provided requirement files with the following steps:
 
-- Install conda or activate any conda environment already installed
+- Install conda and/or activate any conda environment already installed
 ```
 pip install conda / conda activate some-env
 ```
