@@ -57,6 +57,11 @@ Utils file with all functions needed.
 
 Project Report with more infos.
 
+`audio/**`
+-------------
+
+Example audio/midi files (for sources see report)
+
 `README.md`
 -------------
 
