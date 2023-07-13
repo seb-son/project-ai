@@ -67,12 +67,12 @@ Project Report with more infos.
 
 ## Thanks and credits:
 
-DEMUCS: https://github.com/facebookresearch/demucs
-Spleeter(Deezer): https://github.com/deezer/spleeter
-PTI: https://github.com/qiuqiangkong/piano_transcription_inference
-MT-3: https://github.com/magenta/mt3
-Filosax: https://dave-foster.github.io/filosax/
-madmom: https://github.com/CPJKU/madmom
-Francesco Foscaring @ ICP - JKU
+DEMUCS: https://github.com/facebookresearch/demucs <br>
+Spleeter(Deezer): https://github.com/deezer/spleeter <br>
+PTI: https://github.com/qiuqiangkong/piano_transcription_inference <br>
+MT-3: https://github.com/magenta/mt3 <br>
+Filosax: https://dave-foster.github.io/filosax/ <br>
+madmom: https://github.com/CPJKU/madmom <br>
+Francesco Foscaring @ ICP - JKU <br>
 
 
