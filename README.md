@@ -4,7 +4,7 @@
 
 This is a 2-part interactive jupyter-notebook which applies state-of-the-art music information retrieval tools to audio (music) files, and helps exploring the abilities of these tools for future applications in the jazz-music domain. 
 
-How to use: 
+## How to use: 
 
 * Download repository
 
@@ -52,7 +52,7 @@ Evaluation notebook of the madmom downbeat tracker applied to the annotated Filo
 Utils file with all functions needed.
 
 
-`report.pdf`
+`report/Project_Report_AI.pdf`
 -------------
 
 Project Report with more infos.
