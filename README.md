@@ -1,10 +1,6 @@
 # Piano Transcription - Project in AI SS2023 - IPC-JKU
-=============================================
+====================================================
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 
 
 This is a 2-part interactive jupyter-notebook which applies state-of-the-art music information retrieval tools to audio (music) files, and helps exploring the abilities of these tools for future applications in the jazz-music domain. 
 
