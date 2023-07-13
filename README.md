@@ -73,7 +73,7 @@ PTI: 				https://github.com/qiuqiangkong/piano_transcription_inference <br>
 MT-3:				https://github.com/magenta/mt3 <br>
 Filosax: 			https://dave-foster.github.io/filosax/ <br>
 madmom: 			https://github.com/CPJKU/madmom <br>
-Francesco Foscaring @ ICP - JKU <br>
+Francesco Foscarin @ ICP - JKU <br>
 
 -------------
 
