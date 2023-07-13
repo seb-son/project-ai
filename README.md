@@ -10,32 +10,31 @@ How to use:
 
 * Create conda environment with the provided requirement files with the following steps:
 
-install conda or activate any conda environment already installed
+- Install conda or activate any conda environment already installed
 ```
 pip install conda / conda activate some-env
 ```
-install mamba (much faster in installing pkgs than conda)
+- Install mamba (much faster in installing pkgs than conda)
 ```
 conda install mamba
 ```
-create new env with mamba
+- Create new env with mamba
 ```
 mamba create --name <env-name> --file requirements_mamba.txt -c conda-forge
 ```
-activate env
+- Activate env
 ```
 conda activate <env-name>
 ```
-install the rest of the packages not available with conda via pip
+- Install the rest of the packages not available with conda via pip
 ```
 pip install -r requirements_pip.txt
 ```
-run jupyter (inside project directory)
+- Run jupyter (inside project directory)
 ```
 jupyter lab
 ```
-done
-```
+done.
 
 `piano_transcription.ipynb`
 -------------
