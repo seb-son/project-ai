@@ -30,7 +30,8 @@ def make_transcription(audio_path,output_path=str,device = "cpu"):
     # Load audio
     (audio, _) = load_audio(audio_path, sr=sample_rate, mono=True)
     # Transcriptor
-    transcriptor = PianoTranscription(device=device, checkpoint_path=None)  # device: 'cuda' | 'cpu'
+    transcriptor = PianoTranscription(device=device, checkpoint_path=os.path.join("D:",os.sep,"Sebastian","Uni","AI","BAC","project-ai","piano_transcription_inference_data","CRNN_note_F1=0.9677_pedal_F1=0.9186.pth"))
+                                      # checkpoint_path: piano_transcription_inference_data folder, device: 'cuda' | 'cpu'
     #Transcribe and write out to MIDI file
     transcribed_dict = transcriptor.transcribe(audio, output_path)
     logging.info(f"Transcribed {os.path.basename(output_path)} and saved to disk.")
@@ -171,10 +172,10 @@ def separate_audio(file, sr = None,filename=None, source='piano', device='cpu', 
 
 
     segment_start = 0
-    segment_end = 59
+    segment_end = -1
 
     frame_start = segment_start * sample_rate
-    frame_end = segment_end * sample_rate
+    frame_end = segment_end # * sample_rate
 
     drums_spec = audios["drums"][:, frame_start: frame_end].cpu()
 
@@ -228,7 +229,7 @@ def load_and_pan(input_file = str, pan = "1" , output_file = None, trim = False,
     if stop:
         stop_sr= stop*sr
     if trim:
-        y = y[:,start*sr:stop*sr]
+        y = y[:,start*sr:stop_sr]
     #overwrite unused channel, otherwise demucs will be upset(takes only stereo)
     #overwrite unused channel, otherwise demucs will be upset(takes only stereo)
     if y.shape[0] == 1:
