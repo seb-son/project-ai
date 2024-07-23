@@ -68,6 +68,9 @@ Example audio/midi files (for sources see report)
 Infos and Instructions
 
 
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). By using, modifying, or distributing this software, you agree to comply with the terms of the GPL-3.0. This license guarantees end users the freedom to run, study, share, and modify the software. Any distributed version, whether it is the original or a derivative work, must also be licensed under the GPL-3.0 to ensure that these freedoms are preserved. For more details, refer to the LICENSE file included in this repository or visit https://www.gnu.org/licenses/gpl-3.0.html.
 
 
 ## Thanks and credits:
